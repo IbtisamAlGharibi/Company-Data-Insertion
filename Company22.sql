@@ -134,3 +134,8 @@ where Salary< 1500;
 select* from Employees;
 
 drop table WorkOn;
+
+update Employees
+set Salary+=10
+where DepartmentID = 2;
+
